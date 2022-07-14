@@ -11,9 +11,17 @@ public class calculate {
 
     public static void sub(double numero1, double numero2) {
 
-        double resultado = numero1 + numero2;
+        double resultado = numero1 - numero2;
 
         System.out.println("A subtração de " + numero1 + " + " + numero2 + "é " + resultado);
+
+    }
+
+    public static void mult(double numero1, double numero2) {
+
+        double resultado = numero1 * numero2;
+
+        System.out.println("A mulçtiplicação de " + numero1 + " + " + numero2 + "é " + resultado);
 
     }
 }
